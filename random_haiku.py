@@ -37,7 +37,7 @@ def print_dict(d):
 def get_syl_count_dict(pron_dict):
     """ takes a pronunciation dictionary and returns a dictionary with the same keys but values are syllable count for each word."""
     """ We're working with haikus which deal exclusively with syllable counts and so
-    do not need to worrk about word-stress patterns as we would for other types of poetry. """
+    do not need to worry about word-stress patterns as we would for other types of poetry. """
     syl_counts = dict()
     for key in pron_dict:
         phonemes = pron_dict[key]
